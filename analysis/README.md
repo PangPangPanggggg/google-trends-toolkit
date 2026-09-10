@@ -27,7 +27,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\bootstrap-analysis-windows.ps
 
 ## Contract การคำนวณ
 
-- อ่าน case จาก `keywords.csv` โดยตรง: 22 T1 keywords และ 8 T2 families รวม 30 cases
+- อ่าน case จาก `keywords.csv` โดยตรง: snapshot ปัจจุบันมี 23 T1 keywords และ 8 T2 families รวม 31 cases (62 case×scope series)
 - `TH` ใช้ช่วง `2011-01` เป็นต้นไป
 - `REG_ISAN5` ใช้ข้อมูลจริงของ `TH-30`, `TH-31`, `TH-34`, `TH-40`, `TH-41` ตั้งแต่ `2014-01` เป็นต้นไป ห้ามเติมศูนย์ปลอมให้ปี 2011–2013
 - T1 ภาค: rebase max100 แยกรายจังหวัด (A) → เฉลี่ยครบ 5 จังหวัด → rebase ภาค (C)

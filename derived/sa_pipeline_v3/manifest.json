@@ -11,23 +11,23 @@
   "files": {
     "method_log.csv": {
       "rows": 62,
-      "sha256": "cd7c43dba536772668148919a7829c6cd1a068f217ce091903bc6038b739a9ea"
+      "sha256": "4ef3f92f0c2968170eb98e8c0b0da2a3db20bd951a7bd51594365321b729c991"
     },
     "quality_flags.csv": {
       "rows": 62,
-      "sha256": "15923be62b494d99dc289646317cbdbb59cf93d10fc2bf69c9e6d20151d18394"
+      "sha256": "1fdb0e067cce82c3d4f8c3d06b35d225fc073037f5eacc12b8e733b3f6f3827d"
     },
     "rebase_audit.csv": {
       "rows": 478,
-      "sha256": "e79cb53575f5a34f9083ccd94fe89845e57ef5148c4c23feffd1d11f8b246774"
+      "sha256": "0e0af4c957acd242a0411b1a907cc7e2332d87022e9983d61c7a9bce516431c1"
     },
     "series.csv": {
-      "rows": 10478,
-      "sha256": "32ec0bcb39aa0e4276bd4f941d06edb0bec49e6ed92b4ec041c283d2a1782f98"
+      "rows": 10540,
+      "sha256": "8dfadfa712fbb32c4e0e4f0bc52576256bcbe67551addcdf82410f3ec2c294de"
     },
     "x13_diagnostics.csv": {
       "rows": 62,
-      "sha256": "a57fb2142775fdecfde1a3bd4e35c1d30cb3d31a4da115e79f931be610277d44"
+      "sha256": "6e1ee1078f858f3cdd36fa82f25a12752f6a81bff46a26206ddea2d5449ec2a1"
     }
   },
   "implementation": {
@@ -67,14 +67,14 @@
   },
   "schema_version": "sa-pipeline-v3-portable-2",
   "source": {
-    "digest_sha256": "179a3941d7eee24337a587c947c52cb597acd098138677c7e1341cc1aa4f4432",
+    "digest_sha256": "4134394222f230a5602d3a9a450240db765219c58997e0c3b7b45d0ec80541f0",
     "files": 307,
     "hash_normalization": "CRLF->LF",
     "keywords_sha256": "9c4262ca61131f8398b64b9531e6ab6dfd663da2c0cf4ce75ff0b7894352235e"
   },
   "windows": {
     "REG_ISAN5": {
-      "end": "2026-07",
+      "end": "2026-08",
       "geographies": [
         "TH-30",
         "TH-31",
@@ -82,16 +82,16 @@
         "TH-40",
         "TH-41"
       ],
-      "months": 151,
+      "months": 152,
       "required_geographies_n": 5,
       "start": "2014-01"
     },
     "TH": {
-      "end": "2026-07",
+      "end": "2026-08",
       "geographies": [
         "TH"
       ],
-      "months": 187,
+      "months": 188,
       "required_geographies_n": 1,
       "start": "2011-01"
     }

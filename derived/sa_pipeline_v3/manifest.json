@@ -3,31 +3,31 @@
     "case_scope_series": 62,
     "cases": 31,
     "no_signal": 0,
-    "stl_fallback": 1,
+    "stl_fallback": 0,
     "t1_cases": 23,
     "t2_cases": 8,
-    "x13": 61
+    "x13": 62
   },
   "files": {
     "method_log.csv": {
       "rows": 62,
-      "sha256": "4ef3f92f0c2968170eb98e8c0b0da2a3db20bd951a7bd51594365321b729c991"
+      "sha256": "d290bf61923a975992c8ff1462edfdd9dfb8eb9dd7f7916d59e848806023606d"
     },
     "quality_flags.csv": {
       "rows": 62,
-      "sha256": "1fdb0e067cce82c3d4f8c3d06b35d225fc073037f5eacc12b8e733b3f6f3827d"
+      "sha256": "9bc170d1cbf90627b6e6c5a8389f4422f0cbf48465af43eac0adca67a6624340"
     },
     "rebase_audit.csv": {
       "rows": 478,
-      "sha256": "0e0af4c957acd242a0411b1a907cc7e2332d87022e9983d61c7a9bce516431c1"
+      "sha256": "e2e0924049889153ce17db4503e2d5fde1c587a39e18f8a66bb12ac14f0b8754"
     },
     "series.csv": {
-      "rows": 10540,
-      "sha256": "8dfadfa712fbb32c4e0e4f0bc52576256bcbe67551addcdf82410f3ec2c294de"
+      "rows": 10602,
+      "sha256": "4d4ace8b9136e19d228f51cf947e33e691e2c6ff06264c4d5173388617289f0d"
     },
     "x13_diagnostics.csv": {
       "rows": 62,
-      "sha256": "6e1ee1078f858f3cdd36fa82f25a12752f6a81bff46a26206ddea2d5449ec2a1"
+      "sha256": "f386916af1f70a971ef2be954d4217a01f38b2a0b205bd43a683aee1f487e2d8"
     }
   },
   "implementation": {
@@ -67,14 +67,14 @@
   },
   "schema_version": "sa-pipeline-v3-portable-2",
   "source": {
-    "digest_sha256": "4134394222f230a5602d3a9a450240db765219c58997e0c3b7b45d0ec80541f0",
+    "digest_sha256": "eee8ded0f1fc800931ad2a9e6816683c5042cd4d36800d147ae7dd67a98319e5",
     "files": 307,
     "hash_normalization": "CRLF->LF",
     "keywords_sha256": "9c4262ca61131f8398b64b9531e6ab6dfd663da2c0cf4ce75ff0b7894352235e"
   },
   "windows": {
     "REG_ISAN5": {
-      "end": "2026-08",
+      "end": "2026-09",
       "geographies": [
         "TH-30",
         "TH-31",
@@ -82,16 +82,16 @@
         "TH-40",
         "TH-41"
       ],
-      "months": 152,
+      "months": 153,
       "required_geographies_n": 5,
       "start": "2014-01"
     },
     "TH": {
-      "end": "2026-08",
+      "end": "2026-09",
       "geographies": [
         "TH"
       ],
-      "months": 188,
+      "months": 189,
       "required_geographies_n": 1,
       "start": "2011-01"
     }
